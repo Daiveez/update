@@ -1,0 +1,181 @@
+{
+    "type": "Program",
+    "statements": [
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "seed"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 12345
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "a"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 1103515245
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "c"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 12345
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "m"
+                },
+                "value": {
+                    "type": "InfixExpression",
+                    "left_node": {
+                        "type": "IntegerLiteral",
+                        "value": 2
+                    },
+                    "operator": "**",
+                    "right_node": {
+                        "type": "IntegerLiteral",
+                        "value": 31
+                    }
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "min_distance_per_step"
+                },
+                "value": {
+                    "type": "FloatLiteral",
+                    "value": 0.6
+                },
+                "value_type": "float"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "max_distance_per_step"
+                },
+                "value": {
+                    "type": "FloatLiteral",
+                    "value": 1.5
+                },
+                "value_type": "float"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "total_distance"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 1000
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "number_of_students"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 90
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "distance_per_step"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 0
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "total_steps_per_student"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 0
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "total_steps"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 0
+                },
+                "value_type": "int"
+            }
+        },
+        {
+            "VariableStatement": {
+                "type": "VariableStatement",
+                "name": {
+                    "type": "IdentifierLiteral",
+                    "value": "count"
+                },
+                "value": {
+                    "type": "IntegerLiteral",
+                    "value": 0
+                },
+                "value_type": "int"
+            }
+        }
+    ]
+}
